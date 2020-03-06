@@ -2,45 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87fa8454-de19-41ef-af79-ce565aa9377f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/apis/streams.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/authentication/GoogleAuth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/streams/StreamCreate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/streams/StreamDelete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/streams/StreamEdit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/streams/StreamItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/streams/StreamList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/streams/StreamShow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui-elements/Button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui-elements/Input.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/history.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actions/types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/authReducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/streamReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/streams/StreamForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/streams/StreamCreate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/streams/StreamCreate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/streams/StreamEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/streams/StreamEdit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/streams/StreamItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/streams/StreamItem.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +34,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
     <property name="javascript.nodejs.core.library.configured.version" value="13.5.0" />
@@ -147,11 +115,25 @@
       <workItem from="1579983315866" duration="1238000" />
       <workItem from="1580132919233" duration="697000" />
       <workItem from="1580414588691" duration="357000" />
+      <workItem from="1583197763561" duration="5448000" />
+      <workItem from="1583432919364" duration="2752000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit:&#10;&#10;This is the initial commit for the streams client app.">
+      <created>1583197891092</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583197891092</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit:&#10;&#10;This is the initial commit for the streams client app." />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit:&#10;&#10;This is the initial commit for the streams client app." />
   </component>
   <component name="WindowStateProjectService">
     <state x="159" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579983364149">
@@ -162,30 +144,34 @@
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="409" y="277" key="#run/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1579654132782" />
-    <state width="1368" height="289" key="GridCell.Tab.0.bottom" timestamp="1580247606511">
+    <state x="291" y="152" key="CommitChangelistDialog2" timestamp="1583197890699">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1368" height="289" key="GridCell.Tab.0.bottom/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1580247606511" />
-    <state width="1368" height="289" key="GridCell.Tab.0.center" timestamp="1580247606509">
+    <state x="291" y="152" key="CommitChangelistDialog2/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1583197890699" />
+    <state width="1368" height="289" key="GridCell.Tab.0.bottom" timestamp="1583432948196">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1368" height="289" key="GridCell.Tab.0.center/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1580247606509" />
-    <state width="1368" height="289" key="GridCell.Tab.0.left" timestamp="1580247606509">
+    <state width="1368" height="289" key="GridCell.Tab.0.bottom/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1583432948196" />
+    <state width="1368" height="289" key="GridCell.Tab.0.center" timestamp="1583432948195">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1368" height="289" key="GridCell.Tab.0.left/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1580247606509" />
-    <state width="1368" height="289" key="GridCell.Tab.0.right" timestamp="1580247606510">
+    <state width="1368" height="289" key="GridCell.Tab.0.center/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1583432948195" />
+    <state width="1368" height="289" key="GridCell.Tab.0.left" timestamp="1583432948195">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state width="1368" height="289" key="GridCell.Tab.0.right/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1580247606510" />
+    <state width="1368" height="289" key="GridCell.Tab.0.left/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1583432948195" />
+    <state width="1368" height="289" key="GridCell.Tab.0.right" timestamp="1583432948196">
+      <screen x="0" y="23" width="2560" height="1057" />
+    </state>
+    <state width="1368" height="289" key="GridCell.Tab.0.right/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1583432948196" />
     <state x="203" y="190" key="SettingsEditor" timestamp="1579479534859">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="203" y="190" key="SettingsEditor/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1579479534859" />
-    <state x="294" y="293" key="Vcs.Push.Dialog.v2" timestamp="1583197812659">
+    <state x="294" y="293" key="Vcs.Push.Dialog.v2" timestamp="1583197896529">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
-    <state x="294" y="293" key="Vcs.Push.Dialog.v2/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1583197812659" />
+    <state x="294" y="293" key="Vcs.Push.Dialog.v2/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1583197896529" />
     <state x="457" y="404" key="cloudConfig.SelfSettingsDialog" timestamp="1579477902998">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
@@ -194,5 +180,9 @@
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="359" y="256" key="run.anything.popup/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1579984041920" />
+    <state x="359" y="258" width="670" height="158" key="search.everywhere.popup" timestamp="1583427598399">
+      <screen x="0" y="23" width="2560" height="1057" />
+    </state>
+    <state x="359" y="258" width="670" height="158" key="search.everywhere.popup/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1583427598399" />
   </component>
 </project>

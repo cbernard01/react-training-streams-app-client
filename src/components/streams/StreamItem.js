@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../ui-elements/Button";
+import {Link} from "react-router-dom";
 
 const StreamItem = props => {
   const {id, userId, title, description} = props.stream;
@@ -8,11 +9,13 @@ const StreamItem = props => {
     if (userId === currentUserId) {
       return (
         <div className="right floated content">
-          <Button
-            buttonType="button-standard"
-            buttonClass="ui icon button left attached basic tiny"
-            buttonIcon="edit"
-          />
+          <Link to={`/streams/edit/${id}`}>
+            <Button
+              buttonType="button-standard"
+              buttonClass="ui icon button left attached basic tiny"
+              buttonIcon="edit"
+            />
+          </Link>
           <Button
             buttonType="button-standard"
             buttonClass="ui icon button right attached basic tiny"
