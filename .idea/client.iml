@@ -7,5 +7,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="server" />
+    <orderEntry type="module" module-name="react-training-streams-app-server" />
   </component>
 </module>

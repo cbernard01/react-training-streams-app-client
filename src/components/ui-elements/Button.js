@@ -8,7 +8,7 @@ const Button = props => {
     switch (buttonType) {
       case "button-animated":
         return (
-          <button className={`ui ${props.buttonClass} animated button`} tabIndex="0">
+          <button className={`ui ${props.buttonClass} animated button`} tabIndex="0" onClick={props.onClick}>
             <div className="visible content">{props.buttonText}</div>
             <div className="hidden content">
               <i className={`${props.buttonIcon} icon`} />

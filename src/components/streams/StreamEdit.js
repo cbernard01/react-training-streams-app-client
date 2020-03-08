@@ -9,13 +9,17 @@ class StreamEdit extends React.Component {
     this.props.fetchStream(this.props.match.params.id);
   }
 
-  onSubmit = (formValues)=> {
-    console.log(formValues);
+  onSubmit = (formValues) => {
+    this.props.editStream(this.props.match.params.id, formValues);
   };
 
   render() {
     if (!this.props.stream) {
-      return <div>Loading...</div>
+      return (
+        <div>
+          <div className="ui active centered text inline loader">Loading...</div>
+        </div>
+      );
     }
     return (
       <div>
@@ -30,7 +34,7 @@ class StreamEdit extends React.Component {
 }
 
 const mapStateToProps = (state, ownProps) => {
-  return {stream: state.streams[ownProps.match.params.id] }
+  return {stream: state.streams[ownProps.match.params.id]}
 };
 
 export default connect(mapStateToProps, {fetchStream, editStream})(StreamEdit);

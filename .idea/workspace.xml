@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87fa8454-de19-41ef-af79-ce565aa9377f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/streams/StreamForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui-elements/Modal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/streams/StreamCreate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/streams/StreamCreate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/streams/StreamDelete.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/streams/StreamDelete.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/streams/StreamEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/streams/StreamEdit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/streams/StreamItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/streams/StreamItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui-elements/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui-elements/Button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +40,7 @@
     <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
-    <property name="javascript.nodejs.core.library.configured.version" value="13.5.0" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -57,7 +60,7 @@
       <recent name="$PROJECT_DIR$/src/api" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm run client">
+  <component name="RunManager" selected="npm.npm run server">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -72,7 +75,7 @@
       <method v="2" />
     </configuration>
     <configuration name="npm run server" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/../server/package.json" />
+      <package-json value="$PROJECT_DIR$/../react-training-streams-app-server/package.json" />
       <command value="run" />
       <scripts>
         <script value="run" />
@@ -117,6 +120,8 @@
       <workItem from="1580414588691" duration="357000" />
       <workItem from="1583197763561" duration="5448000" />
       <workItem from="1583432919364" duration="2752000" />
+      <workItem from="1583517812280" duration="1346000" />
+      <workItem from="1583521185921" duration="5091000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit:&#10;&#10;This is the initial commit for the streams client app.">
       <created>1583197891092</created>
@@ -140,6 +145,10 @@
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="159" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1579983364149" />
+    <state x="533" y="243" key="#npm_run_server" timestamp="1583521228403">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="533" y="243" key="#npm_run_server/0.23.1680.1027@0.23.1680.1027" timestamp="1583521228403" />
     <state x="409" y="277" key="#run" timestamp="1579654132782">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
@@ -148,21 +157,25 @@
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="291" y="152" key="CommitChangelistDialog2/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1583197890699" />
-    <state width="1368" height="289" key="GridCell.Tab.0.bottom" timestamp="1583432948196">
-      <screen x="0" y="23" width="2560" height="1057" />
+    <state width="1659" height="280" key="GridCell.Tab.0.bottom" timestamp="1583536022699">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state width="1659" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1583536022699" />
     <state width="1368" height="289" key="GridCell.Tab.0.bottom/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1583432948196" />
-    <state width="1368" height="289" key="GridCell.Tab.0.center" timestamp="1583432948195">
-      <screen x="0" y="23" width="2560" height="1057" />
+    <state width="1659" height="280" key="GridCell.Tab.0.center" timestamp="1583536022698">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state width="1659" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1583536022698" />
     <state width="1368" height="289" key="GridCell.Tab.0.center/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1583432948195" />
-    <state width="1368" height="289" key="GridCell.Tab.0.left" timestamp="1583432948195">
-      <screen x="0" y="23" width="2560" height="1057" />
+    <state width="1659" height="280" key="GridCell.Tab.0.left" timestamp="1583536022697">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state width="1659" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1583536022697" />
     <state width="1368" height="289" key="GridCell.Tab.0.left/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1583432948195" />
-    <state width="1368" height="289" key="GridCell.Tab.0.right" timestamp="1583432948196">
-      <screen x="0" y="23" width="2560" height="1057" />
+    <state width="1659" height="280" key="GridCell.Tab.0.right" timestamp="1583536022698">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state width="1659" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1583536022698" />
     <state width="1368" height="289" key="GridCell.Tab.0.right/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1583432948196" />
     <state x="203" y="190" key="SettingsEditor" timestamp="1579479534859">
       <screen x="0" y="23" width="2560" height="1057" />
