@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87fa8454-de19-41ef-af79-ce565aa9377f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ui-elements/Modal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/streams/StreamDelete.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/streams/StreamDelete.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/streams/StreamEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/streams/StreamEdit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui-elements/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui-elements/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +113,7 @@
       <workItem from="1583197763561" duration="5448000" />
       <workItem from="1583432919364" duration="2752000" />
       <workItem from="1583517812280" duration="1346000" />
-      <workItem from="1583521185921" duration="5091000" />
+      <workItem from="1583521185921" duration="5363000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit:&#10;&#10;This is the initial commit for the streams client app.">
       <created>1583197891092</created>
@@ -130,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583197891092</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Modal Commit:&#10;&#10;Added the modal portal functionality.  Also wired up the delete stream component to use the modal.">
+      <created>1583631034134</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583631034134</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +137,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit:&#10;&#10;This is the initial commit for the streams client app." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit:&#10;&#10;This is the initial commit for the streams client app." />
+    <MESSAGE value="Modal Commit:&#10;&#10;Added the modal portal functionality.  Also wired up the delete stream component to use the modal." />
+    <option name="LAST_COMMIT_MESSAGE" value="Modal Commit:&#10;&#10;Added the modal portal functionality.  Also wired up the delete stream component to use the modal." />
   </component>
   <component name="WindowStateProjectService">
     <state x="159" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579983364149">
@@ -153,9 +153,10 @@
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="409" y="277" key="#run/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1579654132782" />
-    <state x="291" y="152" key="CommitChangelistDialog2" timestamp="1583197890699">
-      <screen x="0" y="23" width="2560" height="1057" />
+    <state x="446" y="111" key="CommitChangelistDialog2" timestamp="1583631033811">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state x="446" y="111" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1583631033811" />
     <state x="291" y="152" key="CommitChangelistDialog2/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1583197890699" />
     <state width="1659" height="280" key="GridCell.Tab.0.bottom" timestamp="1583536022699">
       <screen x="0" y="23" width="1680" height="1027" />
@@ -181,9 +182,10 @@
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="203" y="190" key="SettingsEditor/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1579479534859" />
-    <state x="294" y="293" key="Vcs.Push.Dialog.v2" timestamp="1583197896529">
-      <screen x="0" y="23" width="2560" height="1057" />
+    <state x="193" y="285" key="Vcs.Push.Dialog.v2" timestamp="1583631035920">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state x="193" y="285" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1583631035920" />
     <state x="294" y="293" key="Vcs.Push.Dialog.v2/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1583197896529" />
     <state x="457" y="404" key="cloudConfig.SelfSettingsDialog" timestamp="1579477902998">
       <screen x="0" y="23" width="2560" height="1057" />
