@@ -4,9 +4,8 @@
     <list default="true" id="87fa8454-de19-41ef-af79-ce565aa9377f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/streams/StreamDelete.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/streams/StreamDelete.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/streams/StreamEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/streams/StreamEdit.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/streams/StreamItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/streams/StreamItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/streams/StreamShow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/streams/StreamShow.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +21,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1WSOohqWT30fVC5tvvTWhSKQAhp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -154,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583631738928</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Edit and Delete Stream Protection Commit:&#10;&#10;Add basic logic to prevent unauthorized deletion or edits of streams.">
+      <created>1583777142122</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583777142122</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,7 +171,8 @@
     <MESSAGE value="Initial Commit:&#10;&#10;This is the initial commit for the streams client app." />
     <MESSAGE value="Modal Commit:&#10;&#10;Added the modal portal functionality.  Also wired up the delete stream component to use the modal." />
     <MESSAGE value="Read Me Commit:&#10;&#10;Updated the ReadMe file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Read Me Commit:&#10;&#10;Updated the ReadMe file." />
+    <MESSAGE value="Edit and Delete Stream Protection Commit:&#10;&#10;Add basic logic to prevent unauthorized deletion or edits of streams." />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit and Delete Stream Protection Commit:&#10;&#10;Add basic logic to prevent unauthorized deletion or edits of streams." />
   </component>
   <component name="WindowStateProjectService">
     <state x="159" y="215" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579983364149">
@@ -179,11 +187,11 @@
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="409" y="277" key="#run/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1579654132782" />
-    <state x="446" y="111" key="CommitChangelistDialog2" timestamp="1583631738799">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="184" y="86" width="997" height="938" key="CommitChangelistDialog2" timestamp="1583777141940">
+      <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="446" y="111" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1583631738799" />
-    <state x="291" y="152" key="CommitChangelistDialog2/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1583197890699" />
+    <state x="184" y="86" width="997" height="938" key="CommitChangelistDialog2/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1583777141940" />
     <state width="1659" height="280" key="GridCell.Tab.0.bottom" timestamp="1583536022699">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
@@ -208,15 +216,19 @@
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="203" y="190" key="SettingsEditor/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1579479534859" />
-    <state x="193" y="285" key="Vcs.Push.Dialog.v2" timestamp="1583631740956">
-      <screen x="0" y="23" width="1680" height="1027" />
+    <state x="294" y="293" key="Vcs.Push.Dialog.v2" timestamp="1583777143710">
+      <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="193" y="285" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1583631740956" />
-    <state x="294" y="293" key="Vcs.Push.Dialog.v2/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1583197896529" />
+    <state x="294" y="293" key="Vcs.Push.Dialog.v2/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1583777143710" />
     <state x="457" y="404" key="cloudConfig.SelfSettingsDialog" timestamp="1579477902998">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="457" y="404" key="cloudConfig.SelfSettingsDialog/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1579477902998" />
+    <state x="499" y="476" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583760709848">
+      <screen x="0" y="23" width="2560" height="1057" />
+    </state>
+    <state x="499" y="476" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1583760709848" />
     <state x="359" y="256" key="run.anything.popup" timestamp="1579984041920">
       <screen x="0" y="23" width="2560" height="1057" />
     </state>

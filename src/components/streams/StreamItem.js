@@ -32,7 +32,8 @@ const StreamItem = props => {
     <div className="item">
       {renderAdmin(id, props.currentUserId)}
       <i className="large middle aligned icon film"/>
-      <div className="content">{title}
+      <div className="content">
+        <Link to={`/streams/${id}`}>{title}</Link>
         <div className="description">{description}</div>
       </div>
     </div>
