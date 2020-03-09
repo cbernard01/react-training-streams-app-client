@@ -16,11 +16,13 @@ const StreamItem = props => {
               buttonIcon="edit"
             />
           </Link>
-          <Button
-            buttonType="button-standard"
-            buttonClass="ui icon button right attached basic tiny"
-            buttonIcon="trash"
-          />
+          <Link to={`/streams/delete/${id}`}>
+            <Button
+              buttonType="button-standard"
+              buttonClass="ui icon button right attached basic tiny"
+              buttonIcon="trash"
+            />
+          </Link>
         </div>
       );
     }

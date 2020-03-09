@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="87fa8454-de19-41ef-af79-ce565aa9377f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/streams/StreamDelete.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/streams/StreamDelete.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/streams/StreamEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/streams/StreamEdit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/streams/StreamItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/streams/StreamItem.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +117,7 @@
       <workItem from="1583197763561" duration="5448000" />
       <workItem from="1583432919364" duration="2752000" />
       <workItem from="1583517812280" duration="1346000" />
-      <workItem from="1583521185921" duration="5946000" />
+      <workItem from="1583521185921" duration="8533000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit:&#10;&#10;This is the initial commit for the streams client app.">
       <created>1583197891092</created>
@@ -143,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583631326553</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Read Me Commit:&#10;&#10;Updated the ReadMe file.">
+      <created>1583631738928</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583631738928</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,10 +179,10 @@
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="409" y="277" key="#run/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1579654132782" />
-    <state x="446" y="111" key="CommitChangelistDialog2" timestamp="1583631326422">
+    <state x="446" y="111" key="CommitChangelistDialog2" timestamp="1583631738799">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="446" y="111" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1583631326422" />
+    <state x="446" y="111" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1583631738799" />
     <state x="291" y="152" key="CommitChangelistDialog2/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1583197890699" />
     <state width="1659" height="280" key="GridCell.Tab.0.bottom" timestamp="1583536022699">
       <screen x="0" y="23" width="1680" height="1027" />
@@ -197,10 +208,10 @@
       <screen x="0" y="23" width="2560" height="1057" />
     </state>
     <state x="203" y="190" key="SettingsEditor/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1579479534859" />
-    <state x="193" y="285" key="Vcs.Push.Dialog.v2" timestamp="1583631403457">
+    <state x="193" y="285" key="Vcs.Push.Dialog.v2" timestamp="1583631740956">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="193" y="285" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1583631403457" />
+    <state x="193" y="285" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1583631740956" />
     <state x="294" y="293" key="Vcs.Push.Dialog.v2/0.23.2560.1057/0.-1057.2560.1057@0.23.2560.1057" timestamp="1583197896529" />
     <state x="457" y="404" key="cloudConfig.SelfSettingsDialog" timestamp="1579477902998">
       <screen x="0" y="23" width="2560" height="1057" />
