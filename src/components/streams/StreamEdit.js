@@ -3,6 +3,7 @@ import _ from "lodash";
 import {connect} from "react-redux";
 import {fetchStream, editStream} from "../../redux/actions";
 import StreamForm from "./StreamForm";
+import history from "../../history";
 
 class StreamEdit extends React.Component {
   componentDidMount() {
@@ -10,7 +11,11 @@ class StreamEdit extends React.Component {
   }
 
   onSubmit = (formValues) => {
-    this.props.editStream(this.props.match.params.id, formValues);
+    if(this.props.auth.userId === this.props.stream.userId) {
+      this.props.editStream(this.props.match.params.id, formValues);
+    }
+
+    history.push("/");
   };
 
   render() {
